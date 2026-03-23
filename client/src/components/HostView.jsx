@@ -585,16 +585,6 @@ function ActiveTradingHost({ state }) {
                 </table>
               </div>
             </div>
-
-            {/* True answer peek */}
-            <div className="panel">
-              <div className="panel-header">True Answer (hidden)</div>
-              <div className="panel-body" style={{ textAlign: 'center' }}>
-                <span className="mono" style={{ fontSize: 20, fontWeight: 700, color: 'var(--accent)' }}>
-                  {formatNum(state.trueAnswer)}
-                </span>
-              </div>
-            </div>
           </div>
         </div>
       </div>
